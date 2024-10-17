@@ -1,0 +1,31 @@
+{
+ "name" : "fmhosting/saludo",
+ "description" : "Libreria saludo v1.0.0 en php para generar saludos by fatin production",
+ "authors" : [
+     {
+      "name" : "fatin production",
+      "email" : "fatinjawad84@gmail.com",
+      "homepage" : "http://www.saludo.com"
+      
+     }
+   ],
+  
+   "license" : "MIT",
+   "minimum-stability" : "dev",
+   "prefer-stable": true,
+   "require" : {
+     "php" : ">=7.4"
+
+   },
+   "autoload": {
+     "psr-4": {
+       "Saludo\\Saludo\\": "src/"
+     }
+   }
+ 
+  
+
+
+
+
+}
