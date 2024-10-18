@@ -1,9 +1,13 @@
-##### titulo pequeño
-# titulo grande
+#Libreria Saludo
+#### por Fatin Jawad
+'''sh
+composer reqyire fmhosting/saludo:dev-main
 
-php```
+'''
+#### Para usar la libreria:
+``` php
 <?php
-echo "hola";
+use Saludo\Saludo\Saludo
+$saludo = nwe Saludo('nombre del usuario')
 ?>
-
 ```
