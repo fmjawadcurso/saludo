@@ -5,12 +5,14 @@ class Saludo {
     private $usuario;
 
     public function __construct($usuario){
-        $this->setCrearSaludo();
         $this->usuario = $usuario;
+        $this->setCrearSaludo();
     }
+      
+        
 
     private function  setCrearSaludo(){
-       $this->msn = "Bienvenido, Sr/Sra".$this->usuario;
+       $this->msn = "Bienvenido, Sr/Sra ".$this->usuario;
     }
 
     public function getCrearSaludo(){
