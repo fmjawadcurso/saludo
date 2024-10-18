@@ -10,7 +10,7 @@ class Saludo {
     }
 
     private function  setCrearSaludo(){
-       $this->msn = "bienvenido,Sr/Sra".$this->usuario;
+       $this->msn = "Bienvenido, Sr/Sra".$this->usuario;
     }
 
     public function getCrearSaludo(){
